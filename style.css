@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url('styles/card.css');
+
+:root{
+    --laranja: hsl(31, 77%, 52%);
+    --ciano: hsl(184, 100%, 22%);
+    --ciano-escuro: hsl(179, 100%, 13%);
+    --branco: white;
+    --transparente: hsla(0, 0%, 100%, 0.75);
+    --font-titulo: 'Big Shoulders', sans-serif;
+    --font-texto: 'Lexend Deca', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--font-texto);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container{
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5em;
+}
+
